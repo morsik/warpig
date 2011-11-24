@@ -1,11 +1,11 @@
 #!/bin/bash
 
-cmake -DCMAKE_BUILD_TYPE=linux-x86_64
-make $@
-cmake -DCMAKE_BUILD_TYPE=linux-x86
-make $@
-cmake -DCMAKE_BUILD_TYPE=windows-x86-cross
-make $@
+cmake -DCMAKE_BUILD_TYPE=linux-x86_64 || exit $?
+make $@ || exit $?
+cmake -DCMAKE_BUILD_TYPE=linux-x86 || exit $?
+make $@ || exit $?
+cmake -DCMAKE_BUILD_TYPE=windows-x86-cross || exit $?
+make $@ || exit $?
 
 rm -rf build/warpig.pk3
 cd build

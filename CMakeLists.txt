@@ -23,6 +23,9 @@ macro(genname OBJNAME)
 		set(LIBNAME "${OBJNAME}-windows-x86")
 		set(ARCHSUFFIX _mp_x86.dll)
 
+#		set(CMAKE_C_FLAGS   "-w")
+#		set(CMAKE_CXX_FLAGS "-w")
+
 		set(CMAKE_C_COMPILER   i586-mingw32msvc-gcc)
 		set(CMAKE_CXX_COMPILER i586-mingw32msvc-g++)
 		set(CMAKE_FIND_ROOT_PATH /usr/i586-mingw32msvc/)
@@ -43,7 +46,7 @@ endmacro(genname)
 
 set(CMAKE_BUILD_DIR obj)
 
-project(etxreal-mod)
+project(warpig)
 
 set(PROJECT_SOURCE_DIR src)
 set(LIBRARY_OUTPUT_PATH ../../build/) #path relative to mods
