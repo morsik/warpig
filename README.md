@@ -15,7 +15,7 @@ If everything was fine, you should see: _game_, _cgame_ and _ui_ for _windows_, 
 
 # Bugfixes
 
-Numbers refers to list from [http://games.chruker.dk/enemy\_territory/modding\_project\_bugfix.php](http://games.chruker.dk/enemy\_territory/modding\_project\_bugfix.php)
+Numbers refers to list from [http://games.chruker.dk/enemy_territory/modding_project_bugfix.php](http://games.chruker.dk/enemy_territory/modding_project_bugfix.php)
 
 * [031](http://games.chruker.dk/enemy_territory/modding_project_bugfix.php?bug_id=031): Show connecting people as connecting in the scoreboard and not as spectators
 * [036](http://games.chruker.dk/enemy_territory/modding_project_bugfix.php?bug_id=036): Mine flags blocking other mines from being spotted
