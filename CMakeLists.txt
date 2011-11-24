@@ -26,6 +26,9 @@ macro(genname OBJNAME)
 #		set(CMAKE_C_FLAGS   "-w")
 #		set(CMAKE_CXX_FLAGS "-w")
 
+		set(CMAKE_SHARED_LIBRARY_C_FLAGS   "")
+		set(CMAKE_SHARED_LIBRARY_CXX_FLAGS "")
+
 		set(CMAKE_C_COMPILER   i586-mingw32msvc-gcc)
 		set(CMAKE_CXX_COMPILER i586-mingw32msvc-g++)
 		set(CMAKE_FIND_ROOT_PATH /usr/i586-mingw32msvc/)
