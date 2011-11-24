@@ -454,7 +454,7 @@ cvarTable_t     gameCvarTable[] =
 #endif							// SAVEGAME_SUPPORT
 
 	// points to the URL for mod information, should not be modified by server admin
-	{&mod_url, "mod_url",    "http://xreal.sourceforge.net", CVAR_SERVERINFO | CVAR_ROM, 0, qfalse},
+    {&mod_url, "mod_url", MODURL, CVAR_SERVERINFO | CVAR_ROM, 0, qfalse},
 	{ NULL,    "mod_version", MODVERSION, CVAR_SERVERINFO | CVAR_ROM, 0, qfalse},
 
 	// configured by the server admin, points to the web pages for the server

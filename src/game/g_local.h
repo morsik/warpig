@@ -43,6 +43,7 @@ If you have questions concerning this license or the applicable additional terms
 // the "gameversion" client command will print this plus compile date
 #define GAMEVERSION         "warpig"
 #define MODVERSION          "dev"
+#define MODURL              "https://github.com/morsik/warpig"
 
 #define BODY_QUEUE_SIZE     8
 
